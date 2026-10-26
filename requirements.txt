@@ -1,0 +1,26 @@
+# Install a matching torch/torchvision pair first; see docs/REPRODUCIBILITY.md.
+# Direct dependencies, NOT a validated environment lock.
+torch
+torchvision
+numpy==1.26.4
+pandas
+Pillow
+PyYAML
+attrs
+tqdm
+h5py
+einops
+albumentations
+opencv-python-headless
+lightning
+torchmetrics
+jsonargparse[signatures]
+# DINOv3 requires >=4.56.0; validate before a major-version upgrade.
+transformers>=4.56.0,<5
+huggingface-hub
+safetensors
+# Imported by entrypoints even with visualization/online logging disabled.
+matplotlib
+wandb
+# Optional Hugging Face dataset backend.
+datasets

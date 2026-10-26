@@ -1,0 +1,20 @@
+__pycache__
+sout
+wandb
+checkpoints*
+*visual
+weights
+.idea
+__pycache__/
+*.py[cod]
+lightning_logs/
+local_res/
+slurm_logs/
+hf_export/
+results/
+temp/
+datasets/
+logs/
+
+# LaTeX compilation output
+/XIDAN_write/build/
